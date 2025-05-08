@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.drop-zone {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.drop-zone.highlight {
+    border-color: #28a745;
+    background-color: #e2f5e3;
+}
+
+.output {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+h2 {
+    color: #007bff;
+}
